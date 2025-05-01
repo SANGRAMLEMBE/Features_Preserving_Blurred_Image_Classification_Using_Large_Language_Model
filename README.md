@@ -25,15 +25,9 @@ Image restoration is a fundamental problem that involves recovering a high-quali
 </details>
 
 
-## Results
 
-Check `test.py` and `eval_instructir.py`. The following command provides all the metric for all the benchmarks using the pre-trained models in `models/`. The results from InstructIR are saved in the indicated folder `results/`
 
-```
-python eval_instructir.py --model models/im_instructir-7d.pt --lm models/lm_instructir-7d.pt --device 0 --config configs/eval5d.yml --save results/
-```
-
-An example of the output log is:
+The output log is:
 
 ```
 >>> Eval on CBSD68_15 noise 0
@@ -46,17 +40,7 @@ CBSD68_15_ssim 0.9315137801801457
 
 -------
 
-You can **[download all the paper results](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip)** -check releases-. We test InstructIR in the following benchmarks:
-
-| Dataset           | Task     | Test Results |
-| :---------------- | :------ | ----: |
-| BSD68             |   Denoising   | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
-| Urban100          |   Denoising   | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
-| Rain100           |   Deraining   | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
-| [GoPro](https://seungjunnah.github.io/Datasets/gopro)             |   Deblurring  | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
-| [LOL](https://daooshee.github.io/BMVC2018website/)               |   Lol Image Enhancement   | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
-| [MIT5K](https://data.csail.mit.edu/graphics/fivek/)             |   Image Enhancement   | [Download](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) |
-
+You can **[download all the paper results](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip)** -check releases-. 
 In releases or clicking the link above you can download [instructir_results.zip](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip) which includes all the qualitative results for those datasets [1.9 Gbs].
 
 
