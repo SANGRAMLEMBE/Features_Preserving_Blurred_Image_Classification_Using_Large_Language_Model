@@ -1,10 +1,9 @@
 # Features_Preserving_Blurred_Image_Classification_Using_Large_Language_Model
 
 
-[![Paper_page](https://www.ijirset.com/upload/2024/may/313_Features.pdf)]
+
 <a href="https://colab.research.google.com/drive/1OrTvS-i6uLM2Y8kIkq8ZZRwEQxQFchfq?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> 
 
-[![Paper page]()
 [Sangram Lembe](https://sangramlembe.github.io/portfolio/), [Rutik Gawali](http://ruitkgawali.me)
 
 
