@@ -99,34 +99,5 @@ Now, let's enhance the image a bit further (2).
 
 <img src="images/results/result2.png" width=50%>
 
-The final result looks indeed stunning 🤗 You can do it yourself in the [demo tutorial]().
-
-### FAQS
-
-> Disclaimer: please remember this is not a product, thus, you will notice some limitations. As most all-in-one restoration methods, it struggles to generalize on real-world images -- we are working on improving it.
-
-- ***How should I start?*** Check our [demo Tutorial](demo.ipynb) and also our [google collab](https://colab.research.google.com/drive/1OrTvS-i6uLM2Y8kIkq8ZZRwEQxQFchfq?usp=sharing) notebook.
-
-- ***How can I compare with your method?*** You can download the results for several benchmarks above on [Results](###Results).
-
-- ***How can I test the model? I just want to play with it***: Visit our 🤗 [Hugging Face demo](https://huggingface.co/spaces/marcosv/InstructIR) and test ir for free,
-
-- ***Why aren't you using diffusion-based models?*** (1) We want to keep the solution simple and efficient. (2) Our priority is high-fidelity --as in many industry scenarios realted to computational photography--. 
-
-### Gradio Demo <a href='https://github.com/gradio-app/gradio'><img src='https://img.shields.io/github/stars/gradio-app/gradio'></a> 
-We made a simple [Gradio demo](app.py) you can run (locally) on your machine [here](app.py). You need Python>=3.9 and [these requirements](requirements_gradio.txt) for it: `pip install -r requirements_gradio.txt`
-
-```
-python app.py
-```
-
-<br>
-<a href="https://huggingface.co/spaces/marcosv/InstructIR"> 
-<img src="images/gradio.png" alt="InstructIR Gradio"> 
-</a>
-
-
-
-### Contacts
-For any inquiries contact Sangram Lembe: <a href="mailto:sangramlembe9696@gmail.com"> </a>
+T
 
