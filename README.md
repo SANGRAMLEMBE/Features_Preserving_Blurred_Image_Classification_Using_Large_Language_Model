@@ -3,11 +3,8 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2401.16468)
 <a href="https://colab.research.google.com/drive/1OrTvS-i6uLM2Y8kIkq8ZZRwEQxQFchfq?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> 
-[![Hugging Face](https://img.shields.io/badge/Demo-%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/marcosv/InstructIR) 
-[![Replicate](https://img.shields.io/badge/Demo-%F0%9F%9A%80%20Replicate-blue)](https://replicate.com/mv-lab/instructir) 
-[![Paper page](https://huggingface.co/datasets/huggingface/badges/resolve/main/paper-page-sm.svg)](https://huggingface.co/papers/2401.16468)
 
-
+[![Paper page](https://www.ijirset.com/upload/2024/may/313_Features.pdf)
 [Sangram Lembe](https://sangramlembe.github.io/portfolio/), [Rutik Gawali](http://ruitkgawali.me)
 
 
@@ -16,10 +13,10 @@
 
 
 
-### TL;DR: quickstart
+### quickstart
 InstructIR takes as input an image and a human-written instruction for how to improve that image. The neural model performs all-in-one image restoration. InstructIR achieves state-of-the-art results on several restoration tasks including image denoising, deraining, deblurring, dehazing, and (low-light) image enhancement.
 
-**🚀 You can start with the [demo tutorial](demo.ipynb)**
+
 
 <details>
 <summary> <b> Abstract</b> (click me to read)</summary>
@@ -28,32 +25,6 @@ Image restoration is a fundamental problem that involves recovering a high-quali
 </p>
 </details>
 
-
-### TODO / News 🔥
-
-- [ ] Upload Model weights and results for other InstructIR variants (3D, 5D).
-
-- [x] [download all the test datasets](https://drive.google.com/file/d/11wGsKOMDVrBlsle4xtzORPLZAsGhel8c/view?usp=sharing) for all-in-one restoration.
-
-- [x] check the instructions below to run `eval_instructir.py` and get all the metrics and results for all-in-one restoration.
-
-- [x] You can download all the qualitative results here [instructir_results.zip](https://github.com/mv-lab/InstructIR/releases/download/instructir-results/instructir_results.zip)
-
-- [x] Upload models to HF 🤗 [(download the models here)](https://huggingface.co/marcosv/InstructIR) 
-
-- [x] 🤗 [Hugging Face Demo](https://huggingface.co/spaces/marcosv/InstructIR) try it now
-
-- [x] [Google Colab Tutorial](https://colab.research.google.com/drive/1OrTvS-i6uLM2Y8kIkq8ZZRwEQxQFchfq?usp=sharing) (check [demo.ipynb](demo.ipynb))
-
-### Try it / Tutorial
-
-[Try it]((https://huggingface.co/spaces/marcosv/InstructIR)) directly on 🤗 Hugging Face at no cost, no code.
-
-
-🚀 You can start with the [demo tutorial](demo.ipynb). We also host the same tutorial on [google colab](https://colab.research.google.com/drive/1OrTvS-i6uLM2Y8kIkq8ZZRwEQxQFchfq?usp=sharing) so you can run it using free GPUs!.
-
-
-<a href="https://mv-lab.github.io/InstructIR/"><img src="images/instructir_teaser.png" alt="InstructIR" width=100%></a>
 
 ## Results
 
@@ -73,8 +44,6 @@ CBSD68_15_ssim 0.9315137801801457
 
 ....
 ```
-
-You can **[download all the test datasets](https://drive.google.com/file/d/11wGsKOMDVrBlsle4xtzORPLZAsGhel8c/view?usp=sharing)**, and locate them in `test-data/`. Make sure the paths are updated in the config file `configs/eval5d.yml`.
 
 -------
 
@@ -174,23 +143,7 @@ python app.py
 </a>
 
 
-### Acknowledgments
-This work was partly supported by the The Humboldt Foundation (AvH). Marcos Conde is also supported by Sony Interactive Entertainment, FTG.
-
-This work is inspired in [InstructPix2Pix](https://arxiv.org/abs/2211.09800).
 
 ### Contacts
-For any inquiries contact Marcos V. Conde: <a href="mailto:marcos.conde@uni-wuerzburg.de">marcos.conde [at] uni-wuerzburg.de</a>
-
-
-### Citation BibTeX
-
-```
-@inproceedings{conde2024high,
-  title={InstructIR: High-Quality Image Restoration Following Human Instructions},
-  author={Conde, Marcos V and Geigle, Gregor and Timofte, Radu},
-  booktitle    = {Proceedings of the European Conference on Computer Vision (ECCV)},
-  year={2024}
-}
-```
+For any inquiries contact Sangram Lembe: <a href="mailto:sangramlembe9696@gmail.com"> </a>
 
