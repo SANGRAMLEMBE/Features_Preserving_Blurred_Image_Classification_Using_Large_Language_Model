@@ -10,7 +10,7 @@
 
 
 ### quickstart
-Features Preserving Blurred Image Classification Using Large Language Model takes as input an image and a human-written instruction for how to improve that image. The neural model performs all-in-one image restoration. Features Preserving Blurred Image Classification Using Large Language Model achieves state-of-the-art results on several restoration tasks including image denoising, deraining, deblurring, dehazing, and (low-light) image enhancement.
+Features Preserving Blurred Image Classification Using Large Language Model takes as input an image and a human-written instruction for how to improve that image. The neural model performs all-in-one image restoration. It achieves state-of-the-art results on several restoration tasks including image denoising, deraining, deblurring, dehazing, and (low-light) image enhancement.
 
 
 
