@@ -37,18 +37,3 @@ Sometimes the blur, rain, or film grain noise are pleasant effects and part of t
 |   Input     |(1) can you remove the tiny dots in the image? it is very unpleasant | (2) now please inprove the quality and resolution of the picture |
 | <img src="images/frog.png" width=100%>      | <img src="images/results/resultns1.png" width=95%>       | <img src="images/results/resultns2.png" width=100%>   |
 
-
-As you can see our model accepts diverse humman-written prompts, from ambiguous to precise instructions. *How does it work?* Imagine we have the following image as input:
-
-<img src="images/rain-020.png" width=50%>
-
-Now we can use InstructIR. with the following prompt (1):
-> I love this photo, could you remove the raindrops? please keep the content intact
-
-<img src="images/results/result1.png" width=50%>
-
-Now, let's enhance the image a bit further (2).
-> Can you make it look stunning? like a professional photo
-
-<img src="images/results/result2.png" width=50%>
-
