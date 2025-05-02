@@ -2,7 +2,7 @@
 
 
 
-<a href="https://colab.research.google.com/drive/1OrTvS-i6uLM2Y8kIkq8ZZRwEQxQFchfq?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> 
+<a href="https://colab.research.google.com/drive/1xtN3SYHqv8GIC0KDEzf8yxskusvAMfnJ?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="google colab logo"></a> 
 
 [Sangram Lembe](https://sangramlembe.github.io/portfolio/), [Rutik Gawali](http://ruitkgawali.me)
 
