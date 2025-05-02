@@ -8,9 +8,6 @@
 
 
 
-<a href="https://mv-lab.github.io/InstructIR/"><img src="images/instructir.gif" alt="InstructIR" width=100%></a>
-
-
 
 ### quickstart
 InstructIR takes as input an image and a human-written instruction for how to improve that image. The neural model performs all-in-one image restoration. InstructIR achieves state-of-the-art results on several restoration tasks including image denoising, deraining, deblurring, dehazing, and (low-light) image enhancement.
@@ -54,6 +51,4 @@ Now, let's enhance the image a bit further (2).
 > Can you make it look stunning? like a professional photo
 
 <img src="images/results/result2.png" width=50%>
-
-T
 
